@@ -9,7 +9,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: "Roboto", sans-serif;
-  background: #ccc;
+  background: url('./img/paisagem.jpg');
 }
 
 .container {
@@ -20,15 +20,17 @@ body {
 }
 
 .bg {
-  border: 2px solid #316FB1;
   padding: 20px 40px;
-  border-radius: 10px;
+  border-radius: 20px;
+  background: transparent;
+  backdrop-filter: blur(30px);
 }
 
 h1 {
   margin-bottom: 20px;
   margin-top: 20px;
   text-align: center;
+  color: #fff;
 }
 
 form {
@@ -67,6 +69,7 @@ th {
   padding: 10px 0;
   font-size: 1.25rem;
   font-weight: 700;
+  color: #ccc;
 }
 
 td {
@@ -74,4 +77,5 @@ td {
   font-size: 1rem;
   font-weight: 400;
   padding: 10px 0;
+  color: #ccc;
 }
